@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVet.Common", "MyVet.Common\MyVet.Common.csproj", "{826F7DCF-18FF-403A-86A0-8A2CAE2BEC22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVet.Common", "MyVet.Common\MyVet.Common.csproj", "{826F7DCF-18FF-403A-86A0-8A2CAE2BEC22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVet.Web", "MyVet.Web\MyVet.Web.csproj", "{76634B81-02D8-447E-A125-149FDC004F2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVet", "MyVet\MyVet.csproj", "{B35C3EAE-82C4-4127-B71C-AD6F836DAD08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{826F7DCF-18FF-403A-86A0-8A2CAE2BEC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826F7DCF-18FF-403A-86A0-8A2CAE2BEC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826F7DCF-18FF-403A-86A0-8A2CAE2BEC22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76634B81-02D8-447E-A125-149FDC004F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76634B81-02D8-447E-A125-149FDC004F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76634B81-02D8-447E-A125-149FDC004F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76634B81-02D8-447E-A125-149FDC004F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35C3EAE-82C4-4127-B71C-AD6F836DAD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35C3EAE-82C4-4127-B71C-AD6F836DAD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35C3EAE-82C4-4127-B71C-AD6F836DAD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35C3EAE-82C4-4127-B71C-AD6F836DAD08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
