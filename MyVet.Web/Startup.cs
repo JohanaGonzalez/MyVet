@@ -11,7 +11,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyVet.Web.Data;
-using MyVet.Web.Helpers;
 
 namespace MyVet.Web
 {
