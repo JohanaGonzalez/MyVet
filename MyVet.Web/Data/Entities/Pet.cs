@@ -26,6 +26,7 @@ namespace MyVet.Web.Data.Entities
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}", ApplyFormatInEditMode = true)]
         public DateTime Born { get; set; }
+        public DateTime BornLocal => Born.ToLocalTime();
 
         public string Remarks { get; set; }
 

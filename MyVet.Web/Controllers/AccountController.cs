@@ -45,7 +45,7 @@ namespace MyVet.Web.Controllers
             ModelState.AddModelError(string.Empty, "Failed to login.");
             return View(model);
         }
-
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _userHelper.LogoutAsync();
